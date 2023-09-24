@@ -1,11 +1,12 @@
 {
-  "name": "koa",
+  "name": "@edge-js/koa",
   "version": "3.0.0-alpha.1",
   "publishConfig": {
     "tag": "experimental"
   },
   "description": "Koa web app framework",
   "main": "lib/application.js",
+  "types": "lib/index.d.ts",
   "exports": {
     ".": {
       "require": "./lib/application.js",
@@ -35,11 +36,11 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "accepts": "^1.3.5",
-    "cache-content-type": "^1.0.0",
-    "content-disposition": "~0.5.2",
+    "@edge-js/accepts": "^1.3.5",
+    "@edge-js/cache-content-type": "^1.0.0",
+    "@edge-js/content-disposition": "~0.5.2",
     "content-type": "^1.0.4",
-    "cookies": "~0.8.0",
+    "@edge-js/cookies": "~0.8.0",
     "debug": "^4.3.2",
     "delegates": "^1.0.0",
     "destroy": "^1.0.4",
@@ -53,7 +54,7 @@
     "only": "~0.0.2",
     "parseurl": "^1.3.2",
     "statuses": "^1.5.0",
-    "type-is": "^1.6.16",
+    "@edge-js/type-is": "^1.6.16",
     "vary": "^1.1.2"
   },
   "devDependencies": {
